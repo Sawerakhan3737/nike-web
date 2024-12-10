@@ -96,7 +96,7 @@ const Help = () => {
                 <div className='hidden lg:block'>
                     <Image
                         className=''
-                        src={'/faqs.png'}
+                        src={'/help.png'}
                         alt=' banner'
                         width={250}
                         height={1000}

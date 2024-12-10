@@ -2,7 +2,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 
-const Card = () => {
+const Shoes = () => {
   return (
     <div >
         <div className='flex justify-between mt-28 px-10 lg:px-16'>
@@ -29,7 +29,7 @@ const Card = () => {
              <div className='w-72 h-72 mb-6 overflow-hidden'>
                 <Image
                 className='hover:scale-105 duration-300'
-                src={'/shoes1.png'}
+                src={'/white.png'}
                 alt=''
                 width={300}
                 height={300}/> <br />
@@ -50,7 +50,7 @@ const Card = () => {
              <div className='w-72 h-72 mb-6 overflow-hidden'>
                 <Image
                 className=' animate-bounce hover:scale-105 duration-300'
-                src={'/shoes1.png'}
+                src={'/white.png'}
                 alt=''
                 width={300}
                 height={300}/> <br />
@@ -71,7 +71,7 @@ const Card = () => {
              <div className='w-72 h-72 mb-6 overflow-hidden'>
                 <Image
                 className='hover:scale-105 duration-300'
-                src={'/Image2.png'}
+                src={'/blue.png'}
                 alt=''
                 width={300}
                 height={300}/> <br />
@@ -92,7 +92,7 @@ const Card = () => {
              <div className='w-72 h-72 mb-6 overflow-hidden'>
                 <Image
                 className=' animate-bounce hover:scale-105 duration-300'
-                src={'/Image2.png'}
+                src={'/blue.png'}
                 alt=''
                 width={300}
                 height={300}/> <br />
@@ -114,4 +114,4 @@ const Card = () => {
   )
 }
 
-export default Card
+export default Shoes

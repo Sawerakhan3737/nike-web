@@ -16,7 +16,7 @@ const Essentials = () => {
             <Image
             className=' hover:scale-105 duration-300'
                
-               src={'/exclusive.png'}
+               src={'/left.png'}
                alt=''
                width={350}
                height={550}/>
@@ -25,19 +25,16 @@ const Essentials = () => {
             <Image
             className='hover:scale-105 animate-pulse duration-300'
                
-               src={'/fr2.png'}
+               src={'/middle.png'}
                alt=''
                width={350}
                height={550}/>
             </div>
-
-
-
 <div className='w-96 h-[400px] overflow-hidden mb-14 md:mb-0'>
             <Image
             className='hover:scale 105 duration-300'
                
-               src={'/Frame2.png'}
+               src={'/right.png'}
                alt=''
                width={350}
                height={550}/>

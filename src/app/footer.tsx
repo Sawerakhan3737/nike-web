@@ -27,10 +27,7 @@ export default function Footer() {
                         <li><Link href="#" className="hover:underline">Contact Us on Nike.com</Link></li>
                         <li><Link href="#" className="hover:underline">Contact Us on All Other Inquiries</Link></li>
                     </ul>
-                </div>
-
-                
-                <div>
+                </div><div>
                     <h3 className="text-sm font-semibold mb-4">ABOUT NIKE</h3>
                     <ul className="space-y-2 text-sm">
                 

@@ -1,10 +1,10 @@
 
 
 import Hero from "./hero";
-import Card from "./card";
+import Shoes from "./shoes";
 import Running from "./running";
 import Gear from "./gear";
-import Stan from "./stan";
+import Main from "./main";
 import Essentials from "../app/essentials";
 import Header from "../app/header";
 
@@ -17,10 +17,10 @@ export default function Home() {
     <main className="max-w-screen-2xl mx-auto">
 <Header/>
       <Hero/>
-      <Card/>
+      <Shoes/>
       <Running/>
        <Gear/>
-      <Stan/>
+      <Main/>
        <Essentials/>
 <Footer/>
     </main>

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const Stan = () => {
+const Main = () => {
   return (
     <div>
 
@@ -12,7 +12,7 @@ const Stan = () => {
         <div className='flex justify-center px-10'>
     <Image
     className=''
-    src={'/stan.png'}
+    src={'/bluemen.png'}
     alt='shoes banner'
     width={1200}
     height={600}
@@ -39,4 +39,4 @@ const Stan = () => {
   )
 }
 
-export default Stan
+export default Main
